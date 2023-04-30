@@ -1,0 +1,12 @@
+.input {
+    border-radius: 100px;
+    border: 1px solid green;
+}
+
+#btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+}
