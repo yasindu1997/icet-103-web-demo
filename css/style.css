@@ -9,4 +9,16 @@
     border-radius: 100px;
     background-color: red;
     color: white;
+    padding: 10px;
+    border: 5px solid blue;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.my-box{
+    width: 100vw;
+    height: 100px;
+    background-color: chocolate;
+    position: static;
+    top: 0;   
 }
