@@ -19,6 +19,38 @@
     width: 100vw;
     height: 100px;
     background-color: chocolate;
-    position: static;
+    position: sticky;
     top: 0;   
 }
+
+.card-custom-yns{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.aud{
+    position: relative;
+    z-index: -1;
+}
+
+.main{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+.box43{
+    width: 300px;
+    height: 50vh;
+    background-color: cornflowerblue;
+}
+
+/* mobile large */
+@media screen and (max-width:425px) {
+    .box43{
+        width: 300px;
+        height: 50vh;
+        background-color: green;
+    }  
+}
+
